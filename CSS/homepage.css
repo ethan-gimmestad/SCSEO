@@ -78,3 +78,32 @@ footer {
     padding: 10px 0;
     font-size: 14px;
 }
+
+/* Feature Buttons */
+.feature-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.feature-button {
+    background-color: #defede; /* Light green background */
+    border-radius: 10px;
+    color: #006600; /* Green text */
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 30%; /* Adjust the width as needed for layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-button:hover, .feature-button:focus {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
